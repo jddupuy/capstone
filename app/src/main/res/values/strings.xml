@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Capstone Project</string>
+    <string name="app_name">Cooking App</string>
+    <string name="recipes">Recipes</string>
+    <string name="ingredients">Ingredients</string>
 </resources>
