@@ -10,8 +10,163 @@
         android:id="@+id/textView2"
         android:layout_width="116dp"
         android:layout_height="30dp"
+        android:layout_marginTop="34dp"
         android:text="Ingredients"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="34dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="137dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:text="Milk"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Eggs"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Flour"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Tomatoes"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Green Beans"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Sour Cream"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Vanilla Extract"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:text="Carrots"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:text="Chicken"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:text="Tuna"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:text="Beef"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:text="CheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:text="Pasta"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:text="Potatoes"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="481dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
