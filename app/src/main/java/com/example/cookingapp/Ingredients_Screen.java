@@ -27,9 +27,34 @@ public class Ingredients_Screen extends AppCompatActivity {
         Intent intent = getIntent();
         Ingredients_List = (ArrayList<Node>) getIntent().getSerializableExtra("Ingredients_List");
 
-        //Resetting checkboxes values
-
+        //Setting Screen
         setContentView(R.layout.activity_ingredients__screen);
+
+        //Resetting checkboxes values
+        if(Ingredients_List.equals(null)){
+
+        }else{
+            TableLayout table = (TableLayout)findViewById(R.id.table);
+            for(int i = 0; i < table.getChildCount(); i++) {
+                TableRow row = (TableRow) table.getChildAt(i);
+                //loops through all elements in row
+                for (int k = 0; k < row.getChildCount(); k++) {
+                    View current = row.getChildAt(k);
+                    if (current instanceof CheckBox) {
+                        CheckBox x = (CheckBox) current;
+                        for(Node node:Ingredients_List){
+                            if(x.getText().equals(node.ingredient)){
+                                x.setChecked(node.available);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        //setContentView(R.layout.activity_ingredients__screen);
         configureBackButton(Ingredients_List);
 
     }
@@ -69,8 +94,8 @@ public class Ingredients_Screen extends AppCompatActivity {
         });
     }
 
-    private void checkBox(){
-        //current.setChecked(true);
+    private void setCheckBoxes(){
+        //current.setChecked(node.available);
     }
 }
 

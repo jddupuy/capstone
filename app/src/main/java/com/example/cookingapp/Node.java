@@ -13,6 +13,4 @@ public class Node implements Serializable {
         available = val;
     }
 
-
-
 }
