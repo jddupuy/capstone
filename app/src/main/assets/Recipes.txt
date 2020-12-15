@@ -1,0 +1,9 @@
+Brownies,Butter,Chocolate,Sugar,Eggs,Vanilla Extract,Flour
+IndianPorkCurry,Pork,Onions,Curry Paste,Salt,Pepper,Tomatoes,Rice
+MashedPotatoes,Potatoes,Milk,Butter,Salt,Pepper
+RoastChicken,Chicken,Paprika,Milk,Salt,Pepper
+ItalianMeatballPasta,Bread,Beef,Eggs,Butter,Onions,Parsley,Salt,Paprika,Lemon,Garlic,Parmesan Cheese,Oregano,Tomato Paste,Pasta
+TwentyMinuteChickenParmesan,Chicken,Eggs,Bread Crumbs,Butter,Spaghetti Sauce,Mozzarella Cheese,Parmesan Cheese,Parsley
+CajunShrimp,Cajun Seasoning,Lemon,Parsley,Honey,Soy Sauce,Cayenne Pepper,Shrimp
+Ratatouille,Eggplant,Zucchini,Tomatoes,Onions,Garlic,Olive Oil,Salt,Pepper
+SpicyGrilledSalmonSteaks,Pepper,Paprika,Cayenne Pepper,Garlic,Onions,Thyme,Salt,Olive Oil,Salmon,Butter

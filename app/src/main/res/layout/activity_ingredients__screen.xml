@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:background="#D1D1D1"
     tools:context=".Ingredients_Screen">
 
     <TextView
@@ -53,9 +54,11 @@
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:text="Dairy" />
+                    android:gravity="center_horizontal"
+                    android:text="Dairy"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
             </TableRow>
 
             <TableRow
@@ -149,9 +152,11 @@
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:text="Meat" />
+                    android:text="Meat"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
             </TableRow>
 
             <TableRow
@@ -221,9 +226,11 @@
 
                 <TextView
                     android:id="@+id/Vegetables"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:text="Vegetables" />
+                    android:text="Vegetables"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
             </TableRow>
 
             <TableRow
@@ -324,7 +331,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.15"
-                    android:text="Eggplant" />
+                    android:text="Peas" />
 
             </TableRow>
 
@@ -334,9 +341,11 @@
 
                 <TextView
                     android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:text="Fruits" />
+                    android:text="Fruits"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
             </TableRow>
 
             <TableRow
@@ -364,12 +373,7 @@
                     android:layout_weight="0.15"
                     android:text="Apples" />
 
-                <CheckBox
-                    android:id="@+id/checkBox42"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.15"
-                    android:text="Oranges" />
+
 
             </TableRow>
 
@@ -398,6 +402,27 @@
                     android:layout_weight="0.15"
                     android:text="Watermelon" />
 
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:id="@+id/checkBox42"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Oranges" />
+
+                <CheckBox
+                    android:id="@+id/checkBox444"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Limes" />
+
+
                 <CheckBox
                     android:id="@+id/checkBox46"
                     android:layout_width="0dp"
@@ -413,9 +438,11 @@
 
                 <TextView
                     android:id="@+id/textView7"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:text="Seasoning" />
+                    android:text="Seasoning"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
             </TableRow>
 
             <TableRow
@@ -443,12 +470,7 @@
                     android:layout_weight="0.15"
                     android:text="Paprika" />
 
-                <CheckBox
-                    android:id="@+id/checkBox50"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.15"
-                    android:text="Cayenne Pepper" />
+
 
             </TableRow>
 
@@ -457,11 +479,13 @@
                 android:layout_height="match_parent">
 
                 <CheckBox
-                    android:id="@+id/checkBox51"
+                    android:id="@+id/checkBox50"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.15"
-                    android:text="Oregano" />
+                    android:text="Cayenne Pepper" />
+
+
 
                 <CheckBox
                     android:id="@+id/checkBox52"
@@ -469,6 +493,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.15"
                     android:text="Cajun Seasoning" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <CheckBox
                     android:id="@+id/checkBox53"
@@ -478,11 +509,19 @@
                     android:text="Soy Sauce" />
 
                 <CheckBox
+                    android:id="@+id/checkBox51"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Oregano" />
+
+                <CheckBox
                     android:id="@+id/checkBox54"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.15"
                     android:text="Thyme" />
+
 
             </TableRow>
 
@@ -497,6 +536,13 @@
                     android:layout_weight="0.15"
                     android:text="Cinnamon Stick" />
 
+                <CheckBox
+                    android:id="@+id/checkBox555"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Parsley" />
+
             </TableRow>
 
             <TableRow
@@ -505,9 +551,11 @@
 
                 <TextView
                     android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
+                    android:layout_width="400dp"
                     android:layout_height="wrap_content"
-                    android:text="Misc." />
+                    android:text="Misc."
+                    android:gravity="center_horizontal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
             </TableRow>
 
             <TableRow
@@ -547,20 +595,6 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-                <CheckBox
-                    android:id="@+id/checkBox60"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.15"
-                    android:text="Bay Leaves" />
-
-                <CheckBox
-                    android:id="@+id/checkBox61"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.15"
-                    android:text="Tomato Paste" />
 
                 <CheckBox
                     android:id="@+id/checkBox62"
@@ -624,13 +658,6 @@
                     android:text="Chocolate" />
 
                 <CheckBox
-                    android:id="@+id/checkBox70"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.15"
-                    android:text="Spaghetti Sauce" />
-
-                <CheckBox
                     android:id="@+id/checkBox71"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -649,13 +676,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.15"
                     android:text="Bread" />
-
-                <CheckBox
-                    android:id="@+id/checkBox73"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.15"
-                    android:text="Curry Paste" />
 
                 <CheckBox
                     android:id="@+id/checkBox74"
@@ -691,6 +711,59 @@
                     android:layout_weight="0.15"
                     android:text="Confectioner's Sugar" />
 
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:id="@+id/checkBox78"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Vanilla Extract" />
+
+                <CheckBox
+                    android:id="@+id/checkBox79"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Bread Crumbs" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkBox60"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Bay Leaves" />
+
+                <CheckBox
+                    android:id="@+id/checkBox61"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Tomato Paste" />
+            </TableRow>
+
+            <TableRow>
+                <CheckBox
+                    android:id="@+id/checkBox70"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Spaghetti Sauce" />
+
+                <CheckBox
+                    android:id="@+id/checkBox73"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Curry Paste" />
             </TableRow>
 
 

@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D1D1D1"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="129dp"
-        android:layout_height="30dp"
+        android:layout_width="239dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/diplomata"
+        android:gravity="center"
         android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,25 +24,53 @@
 
     <Button
         android:id="@+id/recipe_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="254dp"
+        android:layout_width="264dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="164dp"
+        android:background="#8AF9FBFB"
+        android:fontFamily="@font/hammersmith_one"
         android:text="@string/recipes"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#232323"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/ingredient_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="326dp"
+        android:layout_height="43dp"
+        android:background="#8AF9FBFB"
+        android:fontFamily="@font/hammersmith_one"
         android:text="@string/ingredients"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#232323"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recipe_button" />
+        app:layout_constraintTop_toBottomOf="@+id/recipe_button"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="335dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ingredient_button"
+        app:layout_constraintEnd_toEndOf="@+id/ingredient_button"
+        app:layout_constraintStart_toStartOf="@+id/ingredient_button"
+        app:layout_constraintTop_toTopOf="@+id/ingredient_button"
+        app:srcCompat="@drawable/ingredient_button_image" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="335dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="@+id/recipe_button"
+        app:layout_constraintStart_toStartOf="@+id/recipe_button"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/recipe_button_image" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,172 @@
 <resources>
-    <string name="app_name">Cooking App</string>
+    <string name="app_name">Yes Chef!</string>
     <string name="recipes">Recipes</string>
     <string name="ingredients">Ingredients</string>
+    <string name="Brownies">
+        <b>Brownie’s\n\n</b>
+    <p>1/4 lb  butter\n</p>
+        <p>4  squares unsweetened baking chocolate\n</p>
+        <p>1 cup  sugar\n</p>
+        <p>3  eggs\n</p>
+        <p>1 tsp  vanilla\n</p>
+        <p>1  tbs flour\n\n</p>
+
+<body>Melt sugar, butter and chocolates\n
+Mix them with beaten eggs\n
+Add vanilla and flour
+( adding chopped nuts is optional)\n
+Preheat oven to 350F\n
+Pour the mixture in greased brownie pan and bake for 30 minutes.\n
+Can be enjoyed warm with vanilla ice cream!</body>
+    </string>
+
+    <string name="IndianPorkCurry">
+        <b>Indian Pork Curry\n\n</b>
+    <p>400g pork, sliced\n</p>
+        <p>1 cup onions, chopped\n</p>
+        <p>2 tbsp vindaloo curry paste\n</p>
+        <p>Salt and pepper\n</p>
+        <p>1 can peeled tomatoes\n</p>
+        <p>3 cups rice\n\n</p>
+
+<body>Sauté the pork in a skillet with the curry paste.\n
+Add the onion and cook until the onion is also done.\n
+Add the tomatoes with the liquid from the can, cover the pan and cook 1/2 hour with weak fire.\n
+Season to taste.\n
+    Serve with cooked rice.</body>
+    </string>
+
+    <string name="MashedPotatoes">
+        <b>Mashed Potatoes\n\n</b>
+        <p>1/2 kg potatoes\n</p>
+        <p>1 cup milk\n</p>
+        <p>50 g butter\n</p>
+        <p>Salt and pepper\n\n</p>
+        <body>Cook the potatoes in boiling water.\n
+        When they are cooked, peel and mash them.\n
+        Warm the milk and the butter, and mix well with the mashed potatoes.\n
+        Season to taste.</body>
+    </string>
+
+    <string name="RoastChicken">
+        <b>Roast Chicken\n\n</b>
+        <p>1 whole chicken, with guts removed\n</p>
+        <p>Paprika\n</p>
+        <p>1 cup milk\n</p>
+        <p>Salt and pepper\n\n</p>
+
+<body>Preheat the oven at 200 C.\n
+Clean the skin of the chicken with lemon.\n
+Sprinkle paprika lightly all around the chicken.\n
+Sprinkle salt and pepper.\n
+Put the chicken in the oven, lower the temperature at once to 170 C, and cook for 20 to 30 minutes per pound. To check if the meat is done, poke it with a skewer. The chicken is done when there is no more red coming out.
+</body>
+
+    </string>
+    <string name="ItalianMeatballPasta">
+        <b>Italian Meatball Pasta\n\n</b>
+        <p>1 slice bread, 1 inch thick\n</p>
+        <p>1 1/2 pound ground beef\n</p>
+        <p>2 eggs\n</p>
+        <p>1 tablespoon butter\n</p>
+        <p>1/4 cup onion,finely chopped\n</p>
+        <p>3 tablespoons parsley, chopped\n</p>
+        <p>1 1/4 teaspoon salt\n</p>
+        <p>1/4 teaspoon paprika\n</p>
+        <p>1/2 teaspoon lemon rind, grated\n</p>
+        <p>1 teaspoon lemon juice\n</p>
+        <p>1/2 clove garlic, chopped\n</p>
+        <p>3 tablespoons parmesan cheese, grated\n</p>
+        <p>1/4 teaspoon oregano\n</p>
+        <p>2 tablespoons butter\n</p>
+        <p>1 cup tomato sauce\n</p>
+        <p>2 pounds pasta\n\n</p>
+        <body>Mix well the meatball ingredients.\n
+Sauté lightly in the butter until it takes a little color. \nHalf cover with the tomato sauce.\n
+Cook 30 minutes under low fire in a covered pan.\nServe with the cooked pastas.
+</body>
+
+    </string>
+
+    <string name="TwentyMinuteChickenParmesan">
+        <b>20-Minute Chicken Parmesan\n\n</b>
+        <p>4 boneless and skinless chicken breast halves, about 1 lb.\n</p>
+        <p>1 egg, slightly beaten\n</p>
+        <p>1/2 c. seasoned bread crumbs\n</p>
+        <p>2 tbsp. margarine or butter\n</p>
+        <p>1 3/4 c. spaghetti sauce\n</p>
+        <p>1/2 c. shredded Mozzarella cheese\n</p>
+        <p>1 tbsp. grated Parmesan cheese\n</p>
+        <p>1/4 c. chopped fresh parsley\n\n</p>
+
+<body>Using palm of hand flatten chicken to even thickness.\n
+Dip chicken into egg then into crumbs to coat.\n
+In skillet over medium heat, in hot margarine, brown chicken on both sides.\n
+Add Prego sauce.\nReduce heat.\n
+Cover; simmer 10 minutes.\nSprinkle with cheeses and parsley.\n
+Cover; simmer 5 minutes or until cheese melts.\n4 servings.
+</body>
+
+    </string>
+
+    <string name="CajunShrimp">
+        <b>Cajun Shrimp\n\n</b>
+        <p>2 tbsp. cajun seasoning\n</p>
+        <p>2 tbsp. lemon juice\n</p>
+        <p>2 tbsp. fresh parsley, chopped\n\</p>
+        <p>1 tbsp. honey\n</p>
+        <p>1 tbsp. soy sauce\n</p>
+        <p>1 pinch cayenne pepper\n</p>
+        <p>1 lb. shrimp, uncooked, shelled, and deveined\n\n</p>
+
+<body>Combine first seven ingredients in a 9" x 13" baking dish.\n
+Add shrimp and toss to coat.\n
+Refrigerate at least 1 hour.\n
+Preheat oven to 450 degrees.\n
+Bake until shrimp are cooking through, stirring occasionally, about 10 minutes.\n
+Can be served with fettucini alfredo and/or French bread.
+
+</body>
+
+    </string>
+
+    <string name="Ratatouille">
+        <b>Ratatouille\n\n</b>
+        <p>1 eggplant\n</p>
+        <p>2 zucchini, cubed\n</p>
+        <p>3 tomato, cubed\n</p>
+        <p>2 onion, cut in four\n</p>
+        <p>1 glove garlic, minced\n</p>
+        <p>2 tbsp olive oil\n</p>
+        <p>salt\n</p>
+        <p>pepper\n\n</p>
+
+<body>Pare and cut the eggplants in thick slices.\nSprinkle with salt and let rest 10 min on some towel paper. Wash and dry.\nCube the slices.\n
+Mix all the vegetables and herbs in a pan, cook under medium heat about 30 min.\nWhen the vegetables are cooked, add the olive oil and season to taste.\n
+</body>
+
+    </string>
+
+    <string name="SpicyGrilledSalmonSteaks">
+        <b>Spicy Grilled Salmon Steaks\n\n</b>
+        <p>1 1/2 t black pepper\n</p>
+        <p>1/2 t paprika\n</p>
+        <p>1/4 t cayenne pepper\n</p>
+        <p>1 t garlic, minced\n</p>
+        <p>1 T onion, minced\n</p>
+        <p>1/2 t thyme, dried, crumbled\n</p>
+        <p>1/4 t salt\n</p>
+        <p>1 T olive oil\n</p>
+        <p>2 salmon steaks, 1 lb, 1 inch thick\n</p>
+        <p>1 T butter, unsalted\n\n</p>
+
+<body>In a bowl stir together the black pepper, the paprika, the cayenne, the garlic, the onion, the thyme, the salt, and the oil until the mixture forms a stiff paste.\nPat the paste onto both sides of each salmon steak.\n
+Heat an oiled ridged grill pan over moderately high heat until it is smoking and in it saut? the salmon for 3 to 4 minutes on each side, or until it is cooked through.\n
+While the salmon is cooking, in a small skillet cook the butter over moderate heat, swirling the skillet, until it is dark brown, but do not let it burn.\nTransfer the salmon to heated plates and pour the butter over it.
+
+</body>
+
+    </string>
+
+
 </resources>

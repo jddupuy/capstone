@@ -67,7 +67,10 @@ public class MainActivity extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                startActivity(new Intent(MainActivity.this, Recipe_Screen.class));
+
+                Intent i = new Intent(MainActivity.this, Recipe_Screen.class);
+                i.putExtra("Ingredients_List", Ingredients_List);
+                startActivity(i);
             }
 
         });
